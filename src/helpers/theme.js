@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { purple } from '@mui/material/colors';
+import {blueGrey, deepOrange, deepPurple, green, purple, red, yellow} from '@mui/material/colors';
 import Button from '@mui/material/Button';
 
 export const theme = createTheme({
     palette: {
         primary: {
             // Purple and green play nicely together.
-            main: purple[500],
+            main: yellow[300],
         },
         secondary: {
             // This is green.A700 as hex.

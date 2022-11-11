@@ -1,0 +1,28 @@
+#calc {
+    margin-top: 8em;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    /*border: 3px solid mediumvioletred;*/
+}
+
+#buttons {
+    /*border: 2px solid antiquewhite;*/
+    display: flex;
+    flex-direction: row;
+    /*align-items: center;*/
+}
+
+#numbers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.equal{
+    display: flex;
+    justify-content: center;
+}
